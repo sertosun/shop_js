@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation nav">
+        <ul>
+          <li><a href="shop.html">MEN</a></li>
+          <li><a href="women.html">WOMEN</a></li>
+          <li><a href="kids.html">KIDS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container product_section">
+      <h1 class="title_product">SHOES</h1>
+      <div class="shop_items">
+        <!-- Product -->
+        <div class="product">
+          <span class="product_item_title">BUDAPESTER</span>
+          <div class="product_image_box">
+            <img
+              class="product_item_image"
+              src="https://i.ebayimg.com/images/g/LOEAAOSwx~pbaDKo/s-l400.jpg"
+            />
+            <button class="btn product_item_button">Hinzufügen</button>
+          </div>
+          <div class="product_item_details">
+            <span class="product_item_price">149.99€</span>
+          </div>
+        </div>
+        <!-- Product End -->
+        <div class="product">
+          <span class="product_item_title">CHELSEA BOOTS</span>
+          <div class="product_image_box">
+            <img
+              class="product_item_image"
+              src="https://www.blue-heeler.de/wp-content/uploads/herren-boots-stiefeletten-chelsea-schwarz-windsor-handgenaeht-ledersohle-04-1.jpg"
+            />
+            <button class="btn product_item_button">Hinzufügen</button>
+          </div>
+          <div class="product_item_details">
+            <span class="product_item_price">219.99€</span>
+          </div>
+        </div>
+        <div class="product" id="productSneaker">
+          <span class="product_item_title">SNEAKER</span>
+          <div class="product_image_box">
+            <img
+              class="product_item_image"
+              src="https://www.rieker-shop.de/media/image/product/99154/sm/rieker-damen-sneaker-schwarz-m6901-00_7.jpg"
+            />
+            <button class="btn product_item_button">Hinzufügen</button>
+          </div>
+          <div class="product_item_details">
+            <span class="product_item_price">119.99€</span>
+          </div>
+        </div>
+        <div class="product">
+          <span class="product_item_title">FUßBALLSCHUHE</span>
+          <div class="product_image_box">
+            <img
+              class="product_item_image"
+              src="https://www.tradeinn.com/f/13842/138429983/adidas-x-speedflow.1-fg-fussballschuhe.jpg"
+            />
+            <button class="btn product_item_button test1">Hinzufügen</button>
+          </div>
+          <div class="product_item_details">
+            <span class="product_item_price">79.99€</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container content_section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart_row">
+        <span class="cart_item cart_header cart_column">ITEM</span>
+        <span class="cart_price cart_header cart_column">PRICE</span>
+        <span class="cart_quantity cart_header cart_column">QUANTITY</span>
+      </div>
+      <div class="cart_total">
+        <strong class="cart_total_title">Total</strong>
+        <span class="cart_total_price">$0</span>
+      </div>
+      <!-- WICHTIG -->
+      <div class="cart_items">
+        <!-- Beispiel -->
+        <div class="cart_row">
+          <div class="cart_item cart_column">
+            <img
+              class="cart_item_image"
+              src="https://www.blue-heeler.de/wp-content/uploads/herren-boots-stiefeletten-chelsea-schwarz-windsor-handgenaeht-ledersohle-04-1.jpg"
+              width="100"
+              height="100"
+            />
+            <span class="cart_item_title">Chelsea Boots</span>
+          </div>
+          <span class="cart_price cart_column">109.99€</span>
+          <div class="cart_quantity cart_column">
+            <input class="cart_quantity_input" type="number" value="1" />
+            <button class="btn btn_remove" type="button">REMOVE</button>
+          </div>
+        </div>
+        <!-- 2.produkt -->
+       
+        <!-- ----------------- -->
+      </div>
+      <button class="btn btn_kaufen" type="button">PURCHASE</button>
+    </section>
+
+    <script src="shop.js" async></script>
+  </body>
+</html>
